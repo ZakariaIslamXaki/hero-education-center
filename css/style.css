@@ -1,10 +1,31 @@
+/* Global CSS */
+.hero-button {
+    color: white;
+    background-color: RED;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-button:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid red;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+/* Nav Section Style Start */
 .hero-nav-title {
     color: red;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 20px;
 }
 
+/* Nav Section Style End */
+/* Carousel Section Style Start */
 .hero-carousel-title {
     font-family: 'Inter', sans-serif;
     font-weight: 600;
@@ -23,25 +44,74 @@
     font-size: 35px;
 }
 
+/* Carousel Section Style End */
+/* Course Section Style Start */
 .hero-course-para {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 20px;
 }
 
-.hero-button {
+/* Course Section Style End */
+/* Bonus Section Style Start */
+.hero-bonus-button {
     color: white;
-    background-color: RED;
+    background-color: black;
     padding: 10px 25px;
     text-decoration: none;
     border-radius: 5px;
 }
 
-.hero-button:hover {
-    color: black;
+.hero-bonus-button:hover {
+    color: red;
     background-color: white;
     border: 2px solid red;
     text-decoration: none;
     border-radius: 5px;
     margin-bottom: 5px;
 }
+
+.hero-modal-title {
+    color: red;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+/* Bonus Section Style End */
+/* FAQ Section Style Start */
+.hero-faq-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.hero-faq-para {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* FAQ Section Style End */
+/* Client Section Style Start */
+.hero-client-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+/* Client Section Style End */
+/* Footer Section Style Start */
+.hero-footer-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.hero-footer-para {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* Footer Section Style End */
