@@ -17,6 +17,18 @@
     font-size: 15px;
 }
 
+.hero-course-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.hero-course-para {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
 .hero-button {
     color: white;
     background-color: RED;
